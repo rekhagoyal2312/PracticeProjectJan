@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [PracticeProjectJan Test Suite]]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="utilites.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="PracticeProjectJan Test(failed)(failed)">
+    <groups>
+      <run>
+        <include name="master"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.TC_002_Login">
+        <methods>
+          <include name="setup"/>
+          <include name="test_login"/>
+        </methods>
+      </class> <!-- testCases.TC_002_Login -->
+    </classes>
+  </test> <!-- PracticeProjectJan Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [PracticeProjectJan Test Suite]] -->
